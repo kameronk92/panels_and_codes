@@ -2,7 +2,7 @@
 Codewriting
 
 You are given a string of digits panel and an array of strings codes .
-Each string in the codes array consists of digits only and represents a code in the following format: "'index'pattern'", Where both index and pattern Should consist of at least one digit. Since there are several ways to split the code, let's consider them all in ascending order of index length and call them split-cases. For instance, for the code = "1324", the split-cases are:
+Each string in the codes array consists of digits only and represents a code in the following format: `index``pattern`, Where both index and pattern Should consist of at least one digit. Since there are several ways to split the code, let's consider them all in ascending order of index length and call them split-cases. For instance, for the code = "1324", the split-cases are:
 • split-case 1: index = "1" and pattern = "324" ;
 • split-case 2: index = "13" and pattern = "24" ;
 • split-case 3: index = "132" and pattern = "4" .
