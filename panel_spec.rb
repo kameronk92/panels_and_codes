@@ -1,14 +1,7 @@
 require './panel.rb'
 
 RSpec.describe 'solution' do
-  it 'accepts two arguments' do
-    panel = "2311453915" 
-    codes = ["0211", "639"]
-
-    expect(solution(panel, codes)).to eq(["not found", "11", "not found", "39", "not found"])
-  end
-
-  it 'Test Case 1: Basic Test Case' do
+  it 'Test Case 1: Example Test Case' do
     panel = "2311453915"
     codes = ["0211", "639"]
     expect(solution(panel, codes)).to eq(["not found", "11", "not found", "39", "not found"])
